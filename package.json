@@ -1,0 +1,18 @@
+{
+  "name": "rsa-bigint-textbook",
+  "version": "0.1.0",
+  "description": "Textbook RSA implementation in Node.js using native BigInt (no third-party crypto libraries).",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "demo": "node ./demo/demo.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
