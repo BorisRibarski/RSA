@@ -9,6 +9,7 @@
   },
   "scripts": {
     "demo": "node ./demo/demo.js",
+    "debug": "node ./demo/debug.js",
     "test": "node --test"
   },
   "engines": {
